@@ -1,0 +1,33 @@
+
+
+             falcom instruçoes 1 e 2 icewm e falcom-manager
+
+
+
+wget https://github.com/oliveiraezequiel/falcom/raw/main/icewm.tar.gz
+sudo cp -r icewm /usr/share/
+tar -xvzf icewm.tar.gz
+rm icewm.tar.gz
+
+
+ou
+
+wget https://github.com/oliveiraezequiel/falcom/blob/main/icewm-autocopy.sh
+
+
+depois de baixado use o terminal como root com comando ./icewm-autocopy.sh
+
+
+
+
+wget https://github.com/oliveiraezequiel/falcom/raw/main/falcom-manager.tar.gz
+sudo cp -r falcom-manager /usr/share/
+tar -xvzf falcom-manager.tar.gz
+rm falcom-manager.tar.gz
+
+ou
+
+
+wget https://github.com/oliveiraezequiel/falcom/blob/main/falcom-manager-autocop y.sh
+
+depois de baixado  use o terminal como root com o cmando ./falcom-manager-autocop y.sh
