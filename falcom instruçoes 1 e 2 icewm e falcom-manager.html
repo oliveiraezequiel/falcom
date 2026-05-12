@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Falcom Instruções</title>
+
+<style>
+body{
+    background:#0b3d2e;
+    color:#f5f5dc;
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#145a32;
+    padding:20px;
+    text-align:center;
+    font-size:32px;
+    font-weight:bold;
+    border-bottom:3px solid #f5f5dc;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.box{
+    background:#145a32;
+    border:2px solid #f5f5dc;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:30px;
+    box-shadow:0 0 10px #000;
+}
+
+h2{
+    color:#f5f5dc;
+}
+
+pre{
+    background:#06281d;
+    color:#f5f5dc;
+    padding:15px;
+    border-radius:8px;
+    overflow:auto;
+}
+
+a{
+    color:#f5f5dc;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    background:#145a32;
+    border-top:3px solid #f5f5dc;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+Falcom Instruções 1 e 2
+</header>
+
+<div class="container">
+
+<div class="box">
+<h2>IceWM Manual</h2>
+
+<pre>
+wget https://github.com/oliveiraezequiel/falcom/raw/main/icewm.tar.gz
+
+tar -xvzf icewm.tar.gz
+
+sudo cp -r icewm /usr/share/
+
+rm icewm.tar.gz
+</pre>
+
+<h2>Ou use o instalador automático</h2>
+
+<pre>
+wget https://github.com/oliveiraezequiel/falcom/raw/main/icewm-autocopy.sh
+
+chmod +x icewm-autocopy.sh
+
+sudo ./icewm-autocopy.sh
+</pre>
+
+<p>
+Depois de baixado use o terminal como root com comando:
+<b>./icewm-autocopy.sh</b>
+</p>
+</div>
+
+<div class="box">
+<h2>Falcom-Manager Manual</h2>
+
+<pre>
+wget https://github.com/oliveiraezequiel/falcom/raw/main/falcom-manager.tar.gz
+
+tar -xvzf falcom-manager.tar.gz
+
+sudo cp -r falcom-manager /usr/share/
+
+rm falcom-manager.tar.gz
+</pre>
+
+<h2>Ou use o instalador automático</h2>
+
+<pre>
+wget https://github.com/oliveiraezequiel/falcom/raw/main/falcom-manager-autocopy.sh
+
+chmod +x falcom-manager-autocopy.sh
+
+sudo ./falcom-manager-autocopy.sh
+</pre>
+
+<p>
+Depois de baixado use o terminal como root com comando:
+<b>./falcom-manager-autocopy.sh</b>
+</p>
+</div>
+
+</div>
+
+<div class="footer">
+Falcom Project © 2026
+</div>
+
+</body>
+</html>
