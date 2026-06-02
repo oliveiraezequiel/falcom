@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Arni-FM - Instalação</title>
+
+<style>
+body{
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1,h2{
+    color: darkgreen;
+}
+
+p,li{
+    color: darkgreen;
+    font-size: 18px;
+}
+
+.path{
+    color: orange;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: darkgreen;
+    font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Arni-FM - Guia de Instalação</h1>
+
+<p>
+Este script realiza automaticamente o download, cópia,
+descompactação e limpeza dos arquivos do Arni-FM.
+</p>
+
+<h2>Passo 1 - Baixar o Script</h2>
+
+<pre>
+wget https://seu-servidor/install-arni-fm.sh
+</pre>
+
+<h2>Passo 2 - Dar Permissão</h2>
+
+<pre>
+chmod +x install-arni-fm.sh
+</pre>
+
+<h2>Passo 3 - Executar como Root</h2>
+
+<pre>
+sudo ./install-arni-fm.sh
+</pre>
+
+<h2>O Script Executa Automaticamente</h2>
+
+<ul>
+<li>Baixa o arquivo <b>arni-fm.tar.gz</b>.</li>
+<li>Copia o arquivo para:</li>
+</ul>
+
+<p class="path">/usr/local/bin</p>
+
+<p class="path">/usr/share</p>
+
+<ul>
+<li>Descompacta os arquivos nos diretórios acima.</li>
+<li>Remove os arquivos compactados após a instalação.</li>
+<li>Finaliza a instalação automaticamente.</li>
+</ul>
+
+<h2>Diretórios Utilizados</h2>
+
+<p class="path">/usr/local/bin</p>
+
+<p class="path">/usr/share</p>
+
+<div class="footer">
+As equipes Falcon, Arni, edxOS e edxlinux agradecem.
+</div>
+
+</body>
+</html>
